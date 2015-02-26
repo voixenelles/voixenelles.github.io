@@ -1,9 +1,10 @@
 
 body {
 	margin: 15px auto 0 auto;
-	width: 820px;
+	width: 60%;
 	background-color: #C3AF94; /*#6AA26A;*/ /*#346A34; #FFCB80;*/
 	font-family: sans-serif;
+	font-size: 13px;
 	color: #0B3736; /*#234823;*/ /*#345A34;*/ /*#6AA26A;*/
 	text-align: justify;
 	background: #C3AF94; /*#6AA26A*/ url("logo_back.png") fixed repeat;
@@ -20,7 +21,7 @@ h2 {
 .menu {
 	box-shadow: 0px 0px 15px #000000;
 	background-color: #643A3B; /*#411;*/
-	margin-bottom: 1em;
+	margin-bottom: 3em;
 	color: #CD837A; /*#722;*/
 	display: block;
 	position: relative;
@@ -46,7 +47,7 @@ h2 {
 	position: absolute;
 	margin: 0 0 0 9em;
 	padding: 0;
-	width: 820px;
+	width: 60%;
 }
 
 .menu nav > a {
@@ -56,18 +57,24 @@ h2 {
 	text-align: center;
 	vertical-align: bottom;
 	/*width: 6.5em;*/
-	height: 8em;
-	line-height: 8em;
+	height: 3em;
+	line-height: 3em;
 	/*border-radius: 5px;*/
 	border: 1px solid white;
 	margin-left: -1px;
-	padding: 0 1em;
+	padding: 5em 1em 0 1em;
 	/*background-image: -moz-linear-gradient(right, #201010, #101010);*/
 	/*background-image: -moz-linear-gradient(right, #CD837A, #643A3B);*/
 	color: #C3AF94;
+	opacity: 0.7;
 	text-decoration: none;
 	font-family: "Tahoma", sans-serif;
 	font-variant: small-caps;
+}
+
+.menu nav > a:hover {
+	opacity: 1.0;
+	padding-top: 7em;
 }
 
 .menu > p {
@@ -105,9 +112,21 @@ a#menu-6 { background-color: #858C62; color: black }
 
 
 aside {
-	float: left;
-	width: 100px;
-	height: 100%;
+	position: fixed;
+	left: 10px;
+	top: 35%;
+	width: 20%;
+	height: 30%;
+	background: rgba(100,58,59,0.6);
+	border: 1px solid #643A3B;
+}
+
+aside > * {
+	margin: 5px;
+}
+
+aside h1 {
+	text-align: center;
 }
 
 img.portrait {
