@@ -28,7 +28,6 @@ h2 {
 	font-size: 12px;
 	width: 100%;
 	height: 5em;
-	box-shadow: 0px 0px 15px #000000;
 }
 
 .menu > img {
@@ -75,6 +74,7 @@ h2 {
 .menu nav > a:hover {
 	opacity: 1.0;
 	padding-top: 7em;
+	box-shadow: 0px 0px 15px #DDAA44;
 }
 
 .menu > p {
@@ -116,7 +116,7 @@ aside {
 	left: 10px;
 	top: 35%;
 	width: 20%;
-	height: 30%;
+	/*height: 50%;*/
 	background: rgba(100,58,59,0.6);
 	border: 1px solid #643A3B;
 }
@@ -125,8 +125,22 @@ aside > * {
 	margin: 5px;
 }
 
+aside > a {
+	display: block;
+	text-decoration: none;
+}
+
+aside > a:hover {
+	text-decoration: underline;
+}
+
 aside h1 {
 	text-align: center;
+}
+
+aside img {
+	position: relative;
+	max-width: 95%;
 }
 
 img.portrait {
@@ -139,7 +153,7 @@ img.portrait {
 img.affiche {
 	display: block;
 	margin: auto;
-	height: 500px;
+	/*height: 500px;*/
 	box-shadow: 0 0 15px black;
 	border: 2px solid white;
 }
