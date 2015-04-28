@@ -168,9 +168,6 @@ img.portrait {
   margin: 10px;
   box-shadow: 0 0 15px black;
 }
-article.artiste {
-  min-height: 400px;
-}
 img.affiche {
   display: block;
   margin: auto;
@@ -192,6 +189,9 @@ section.news span.date {
 }
 section.news p {
   margin-left: 2em;
+}
+article.artiste {
+  min-height: 400px;
 }
 section.medias {
   margin: 0 -10%;

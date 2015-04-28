@@ -86,12 +86,12 @@ hr {
             font-family: "Tahoma", sans-serif;
             font-variant: small-caps;
             font-weight: bold;
-        }
-        & > a:hover {
-            opacity: 1.0;
-            padding-top: 7em;
-            margin-bottom: -2em;
-            box-shadow: 0px 0px 15px #DDAA44;
+            &:hover {
+                opacity: 1.0;
+                padding-top: 7em;
+                margin-bottom: -2em;
+                box-shadow: 0px 0px 15px #DDAA44;
+            }
         }
     }
     & > p {
@@ -151,9 +151,9 @@ aside {
     & > a {
         display: block;
         text-decoration: none;
-    }
-    & > a:hover {
-        text-decoration: underline;
+        &:hover {
+            text-decoration: underline;
+        }
     }
     h1 {
         text-align: center;
@@ -168,9 +168,6 @@ img.portrait {
     float: left;
     margin: 10px;
     .shadow1;
-}
-article.artiste {
-    min-height: 400px;
 }
 img.affiche {
     display: block;
@@ -195,6 +192,9 @@ section.news {
     p {
         margin-left: 2em;
     }
+}
+article.artiste {
+    min-height: 400px;
 }
 section.medias {
     margin: 0 -10%;
