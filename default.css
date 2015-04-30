@@ -162,6 +162,12 @@ aside img {
   position: relative;
   max-width: 95%;
 }
+div.credits {
+  margin: 0 10px;
+  width: 250px;
+  font-style: italic;
+  text-align: center;
+}
 img.portrait {
   width: 250px;
   float: left;
